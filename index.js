@@ -22,7 +22,7 @@ restService.post('/echo', function(req, res) {
             if (voucher.length == '14') {
                 speech = "This is a valid voucher";
             } else {
-                speech = This is not a valid voucher";
+                speech = "This is not a valid voucher";
             }
         }
     } else {
